@@ -4,8 +4,10 @@
 
 
 // yaa socket.io server run garirako ho 5000 portma
-const io= require('socket.io')(5000)
+const io= require('socket.io')(8000)
 
+
+// kunai pani new-user-joined vayo vane users ma append garchha ani savailai inform gardinchha that user has joined the chat.
 const users = {};
 
 // io.on and socket.on are two different things
@@ -15,10 +17,17 @@ const users = {};
 io.on('connect', socket=>{
 
     // socket.on le chai k garchha vane kunai pani connection ko sath java kei hunchha, teslai k garnu parne ho tyo socket.on le handle garchha
-    socket.on('user-joined', name =>{
+    socket.on('new-user-joined', name =>{
         users[socket.id] = name;
 
         // socket.broadcast.emit le k garchha vane jasle message ma join garyo uslai bahek savailai message jaanchha for instance Ram joined the chat.
-        socket.broadcast.emit()
-    })
+        socket.broadcast.emit('user-joined')
+    });
+
+    // when someone is sending the message
+    socket.on('send', message =>{
+        socket.broadcast.emit('recieve', {message: message, name: users[socket.id]})
+    });
+
+    // socket.on
 })
