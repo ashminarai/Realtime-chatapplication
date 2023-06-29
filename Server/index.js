@@ -22,7 +22,7 @@ io.on('connect', socket=>{
         users[socket.id] = name;
 
         // socket.broadcast.emit le k garchha vane jasle message ma join garyo uslai bahek savailai message jaanchha for instance Ram joined the chat.
-        socket.broadcast.emit('user-joined', name)
+        socket.broadcast.emit('user-joined', name) 
     });
 
     // when someone is sending the message
