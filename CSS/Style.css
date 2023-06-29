@@ -4,6 +4,7 @@
 }
 .chat{
     height:80px;
+    margin-left:700px;
 }
 /* body{
     background-image:linear-gradient(rgb(255,255,255), purple);   
@@ -18,14 +19,14 @@
     background-color:grey;
     width: 24%;
     padding:10px;
-    margin:17px 2px;
+    margin:17px 12px;
     border:2px solid black;
     border-radius: 10px;
-
 }
 .left{
+    float:left;
 
 }
 .right{
-
+    float:right;
 }
