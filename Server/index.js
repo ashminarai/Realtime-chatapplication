@@ -14,15 +14,15 @@ const users = {};
 
 
 // io.on vaneko socket.io instance ho jasle dherai socket connection lai listen gardaichha for instance ram le connect garyo, shyam le connect garyo.
-io.on('connect', socket=>{
+io.on('connection', socket=>{
 
     // socket.on le chai k garchha vane kunai pani connection ko sath java kei hunchha, teslai k garnu parne ho tyo socket.on le handle garchha
     socket.on('new-user-joined', name =>{
-        console.log("New user", name)
+        console.log("New user", name);
         users[socket.id] = name;
 
         // socket.broadcast.emit le k garchha vane jasle message ma join garyo uslai bahek savailai message jaanchha for instance Ram joined the chat.
-        socket.broadcast.emit('user-joined', name) 
+        socket.broadcast.emit('user-joined', name);
     });
 
     // when someone is sending the message
