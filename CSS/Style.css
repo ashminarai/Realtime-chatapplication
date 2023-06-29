@@ -6,9 +6,10 @@
     height:80px;
     margin-left:700px;
 }
-/* body{
+body{
+    height:100vh;
     background-image:linear-gradient(rgb(255,255,255), purple);   
-} */
+}
 .container{
     max-width:955px;
     background-color: red;
@@ -31,4 +32,21 @@
 .right{
     float:right;
     clear:both;
+}
+#send-container{
+    text-align:center;
+}
+#messageInp{
+    width:63%;
+    border:2px solid black;
+    height:34px;
+    border-radius:6px;
+    margin-top:10px;
+}
+.btn{
+    cursor:pointer;
+    border:2px solid black;
+    border-radius:6px;
+    height:34px;
+    width:100px;
 }
