@@ -5,3 +5,12 @@
 .chat{
     height:80px;
 }
+/* body{
+    background-image:linear-gradient(rgb(255,255,255), purple);   
+} */
+.container{
+    max-width:955px;
+    background-color: red;
+    margin:auto;
+    height:60vh;
+}
