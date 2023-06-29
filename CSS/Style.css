@@ -12,9 +12,12 @@ body{
 }
 .container{
     max-width:955px;
-    background-color: red;
+   border:2px solid black;
     margin:auto;
     height:60vh;
+    padding:33px;
+    overflow-y:auto;
+    margin-bottom:23px;
 }
 .message{
     background-color:grey;
@@ -37,7 +40,7 @@ body{
     text-align:center;
 }
 #messageInp{
-    width:63%;
+    width:59%;
     border:2px solid black;
     height:34px;
     border-radius:6px;
