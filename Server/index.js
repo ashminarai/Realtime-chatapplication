@@ -42,7 +42,7 @@ io.on('connection', socket=>{
 
     // when someone is sending the message
     socket.on('send', message =>{
-        socket.broadcast.emit('receive', {message: message, name: user[socket.id]})
+        socket.broadcast.emit('receive', {message: message, name: users[socket.id]})
     });
 
     // socket.on
