@@ -14,7 +14,7 @@ const append = (message, position) => {
   messageElement.innerText = message;
   messageElement.classList.add('message', position);
   messageContainer.append(messageElement);
-  if(position == 'right'){
+  if(position == 'left'){
     audio.play();
   }
 };

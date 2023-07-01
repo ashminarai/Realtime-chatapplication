@@ -14,7 +14,7 @@ io.on('connection', socket => {
     // naya naya users chat ma join vayo vane arule thahapauchha that he/she joined the chat.
     socket.on('new-user-joined', name => {
         users[socket.id] = name;
-        socket.broadcast.emit('user-joined', name);
+        socket.broadcast.emit('user-joined', name,);
     });
 
     // kasaile message send garyo vane savailai broadcast gardinchha
