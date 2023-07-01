@@ -26,5 +26,9 @@ project_folder
 
 <img width="438" alt="Screen Shot 2023-07-01 at 2 42 48 PM" src="https://github.com/ashminarai/Reatime-chatapplication/assets/85731866/7f386acf-9dfb-441b-b4f2-5ed627d99941">
 
+**5. After joining, you can see a simple GUI.**
+
+<img width="1440" alt="Screen Shot 2023-07-01 at 2 57 37 PM" src="https://github.com/ashminarai/Reatime-chatapplication/assets/85731866/ed2c4b7a-f208-4476-bd3f-971b7febe798">
+
 
 
