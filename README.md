@@ -3,11 +3,14 @@
 **Folder style**
 
 project_folder
-├── index.html
-├── js
-│   └── client.js
-├── CSS
-│   └── Style.css
-└── Images
-    └── chat.png
+  - index.html
+  - js
+    - client.js
+  - CSS
+    - Style.css
+  - Images
+    - chat.png
+  - Server
+    - index.js
+
 
