@@ -1,4 +1,4 @@
-🚀 Embark on an Epic Real-Time Chat Experience! 🚀
+**🚀 Embark on an Epic Real-Time Chat Experience! 🚀**
 
 A first-of-its-kind real-time chat application built with NodeJS and SocketIo. The GUI is minimal and is only intended as a practice to learn how to utilize socketIo to hold a chat between two individuals.
 
