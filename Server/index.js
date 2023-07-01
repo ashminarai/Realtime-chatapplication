@@ -20,7 +20,7 @@ io.on('connection', socket=>{
 
     // socket.on le chai k garchha vane kunai pani connection ko sath java kei hunchha, teslai k garnu parne ho tyo socket.on le handle garchha
     socket.on('new-user-joined', name =>{
-        console.log("New user", name);
+        console.log("New user", name)
         users[socket.id] = name;
 
         // socket.broadcast.emit le k garchha vane jasle message ma join garyo uslai bahek savailai message jaanchha for instance Ram joined the chat.
