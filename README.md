@@ -12,13 +12,13 @@ A first-of-its-kind real-time chat application built with NodeJS and SocketIo. T
 project_folder
   - index.html
   - js
-     client.js
+     -client.js
   - CSS
-     Style.css
+     -Style.css
   - Images
-     chat.png
+     -chat.png
   - Server
-     index.js
+     -index.js
 
 **3. Run the server using nodemon index.js**
 
