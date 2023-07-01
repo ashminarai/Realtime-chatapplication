@@ -12,13 +12,13 @@ A first-of-its-kind real-time chat application built with NodeJS and SocketIo. T
 project_folder
   - index.html
   - js
-    - client.js
+     client.js
   - CSS
-    - Style.css
+     Style.css
   - Images
-    - chat.png
+     chat.png
   - Server
-    - index.js
+     index.js
 
 **3. Run the server using nodemon index.js**
 
@@ -29,6 +29,10 @@ project_folder
 **5. After joining, you can see a simple GUI.**
 
 <img width="1440" alt="Screen Shot 2023-07-01 at 2 57 37 PM" src="https://github.com/ashminarai/Reatime-chatapplication/assets/85731866/ed2c4b7a-f208-4476-bd3f-971b7febe798">
+
+**6. You can send message manually.**
+
+<img width="1440" alt="Screen Shot 2023-07-01 at 3 08 02 PM" src="https://github.com/ashminarai/Reatime-chatapplication/assets/85731866/2b6cdf78-a0c1-4aa6-8ba1-0933c0d8cb46">
 
 
 
