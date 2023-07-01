@@ -20,13 +20,17 @@ form.addEventListener('submit', (e) => {
   messageInput.value = '';
 });
 
-const names = prompt("Enter your name to join");
-socket.emit('new-user-joined', names);
+const name = prompt("Enter your name to join");
+socket.emit('new-user-joined', name);
 
 socket.on('user-joined', name => {
-  appendMessage(`${name} joined the chat`, 'right');
+  append(`${name} joined the chat`, 'right');
 });
 
 socket.on('receive', data => {
-  appendMessage(`${data.name}: ${data.message}`, 'left');
+  append(`${data.name}: ${data.message}`, 'left');
+});
+
+socket.on('left', name => {
+  append(`${name} left the chat`, 'left');
 });

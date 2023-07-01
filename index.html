@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chat Application</title>
-  <link rel="stylesheet" href="CSS/Style.css">
-</head>
-<body>
-  <nav class="hello">
-    <img src="Images/chat.png" class="chat" alt="Chat Logo">
-  </nav>
-  <h3 class="applications">Chat Application</h3>
-  <br/>
-  <div class="container"></div>
-  <div class="send">
-    <form action="#" id="send-container">
-      <input type="text" name="messageInp" id="messageInp" placeholder="Type a message..." autocomplete="off">
-      <button class="btn" type="submit">Send</button>
-    </form>
-  </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
 
-  <script src="http://localhost:8000/socket.io/socket.io.js" defer></script>
-  <script src="js/client.js" defer></script>
-</body>
+    <title>Chat Application</title>
+    <link rel="stylesheet" href="CSS/Style.css" />
+  </head>
+  <body>
+    <nav class="hello">
+      <img src="Images/chat.png" class="chat" alt="Chat Logo" />
+    </nav>
+    <h3 class="applications">Chat Application</h3>
+    <br />
+    <div class="container"></div>
+    <div class="send">
+      <form action="#" id="send-container">
+        <input
+          type="text"
+          name="messageInp"
+          id="messageInp"
+          placeholder="Type a message..."
+          autocomplete="off"
+        />
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </div>
+
+    <script src="http://localhost:8000/socket.io/socket.io.js" defer></script>
+    <script src="js/client.js" defer></script>
+  </body>
 </html>
