@@ -2,13 +2,13 @@
   margin: 0;
   padding: 0;
 }
-.chat {
-  height: 80px;
-  margin-left: 700px;
-}
 body {
   height: 100vh;
   background-image: linear-gradient(rgb(255, 255, 255), purple);
+}
+.chat {
+  height: 80px;
+  margin-left: 700px;
 }
 .container {
   max-width: 955px;

@@ -3,10 +3,8 @@ const socket = io('http://localhost:8000');
 const form = document.getElementById('send-container');
 const messageInput = document.getElementById('messageInp');
 const messageContainer = document.querySelector(".container");
-var audio = new Audio('ting.mp4');
-if(position == 'left'){
-  audio.play();
-}
+var audio = new Audio('sound.mp4');
+
 
 
 const appendMessage = (message, position) => {
@@ -14,7 +12,9 @@ const appendMessage = (message, position) => {
   messageElement.innerText = message;
   messageElement.classList.add('message', position);
   messageContainer.append(messageElement);
-  messageContainer.scrollTop = messageContainer.scrollHeight;
+  if(position == 'right'){
+    audio.play();
+  }
 };
 
 form.addEventListener('submit', (e) => {
