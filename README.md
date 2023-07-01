@@ -1,5 +1,10 @@
 # Reatime-chatapplication
 
+**Requirement**
+
+- NodeJS
+- SocketIo
+
 **Folder style**
 
 project_folder
