@@ -22,7 +22,7 @@ project_folder
 
 **4.Enter your name to join the chat**
 
-<img width="449" alt="Screen Shot 2023-07-01 at 2 39 05 PM" src="https://github.com/ashminarai/Reatime-chatapplication/assets/85731866/ad506e86-47eb-400e-a14e-6132f687588a">
+<img width="438" alt="Screen Shot 2023-07-01 at 2 42 48 PM" src="https://github.com/ashminarai/Reatime-chatapplication/assets/85731866/7f386acf-9dfb-441b-b4f2-5ed627d99941">
 
 
 
