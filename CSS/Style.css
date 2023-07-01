@@ -18,6 +18,7 @@ body {
   padding: 33px;
   overflow-y: auto;
   margin-bottom: 23px;
+  border-radius:10px;
 }
 .message {
   background-color: rgb(180, 177, 177);
