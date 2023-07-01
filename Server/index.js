@@ -2,10 +2,7 @@
 const express = require('express');
 const cors = require('cors');
 const app = express();
-const http = require('http');
-const socketIO = require('socket.io');
 
-const server = http.createServer(app);
 
 
 // Allow all origins for simplicity. In production, set this to your frontend domain.
