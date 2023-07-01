@@ -40,8 +40,7 @@ project_folder
 
 **#Left the chat**
 
-<img width="1440" alt="Screen Shot 2023-07-01 at 3 08 02 PM" src="https://github.com/ashminarai/Reatime-chatapplication/assets/85731866/a023a9b5-9b06-479e-9d29-be7277076fac">
-
+<img width="1440" alt="Screen Shot 2023-07-01 at 7 27 57 PM" src="https://github.com/ashminarai/Reatime-chatapplication/assets/85731866/62eac9a7-ab8d-4e2b-8ae1-e0549cefe8a8">
 
 **8. Following that, you'll be able to engage in a conversation. Additionally, you'll receive a messenger sound when you get a notification about receiving a message from someone :)**
 
