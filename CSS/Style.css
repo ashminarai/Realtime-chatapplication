@@ -1,55 +1,59 @@
-*{
-    margin:0;
-    padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.chat{
-    height:80px;
-    margin-left:700px;
+.chat {
+  height: 80px;
+  margin-left: 700px;
 }
-body{
-    height:100vh;
-    background-image:linear-gradient(rgb(255,255,255), purple);   
+body {
+  height: 100vh;
+  background-image: linear-gradient(rgb(255, 255, 255), purple);
 }
-.container{
-    max-width:955px;
-   border:2px solid black;
-    margin:auto;
-    height:60vh;
-    padding:33px;
-    overflow-y:auto;
-    margin-bottom:23px;
+.container {
+  max-width: 955px;
+  border: 2px solid black;
+  margin: auto;
+  height: 60vh;
+  padding: 33px;
+  overflow-y: auto;
+  margin-bottom: 23px;
 }
-.message{
-    background-color:rgb(180,177,177);
-    width: 24%;
-    padding:10px;
-    margin:17px 12px;
-    border:2px solid black;
-    border-radius: 10px;
+.message {
+  background-color: rgb(180, 177, 177);
+  width: 24%;
+  padding: 10px;
+  margin: 17px 12px;
+  border: 2px solid black;
+  border-radius: 10px;
 }
-.left{
-    float:left;
-    clear:both;
-
+.left {
+  float: left;
+  clear: both;
 }
-.right{
-    float:right;
-    clear:both;
+.right {
+  float: right;
+  clear: both;
 }
-#send-container{
-    text-align:center;
+#send-container {
+  text-align: center;
 }
-#messageInp{
-    width:59%;
-    border:2px solid black;
-    height:34px;
-    border-radius:6px;
-    margin-top:10px;
+#messageInp {
+  width: 59%;
+  border: 2px solid black;
+  height: 34px;
+  border-radius: 6px;
+  margin-top: 10px;
+  padding-left: 17px;
 }
-.btn{
-    cursor:pointer;
-    border:2px solid black;
-    border-radius:6px;
-    height:34px;
-    width:100px;
+.btn {
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 6px;
+  height: 34px;
+  width: 100px;
+}
+.applications {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 680px;
 }
