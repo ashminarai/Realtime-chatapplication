@@ -34,7 +34,18 @@ project_folder
 
 **7. You can see when new users joined or left the chat.**
 
-<img width="1440" alt="Screen Shot 2023-07-01 at 3 08 02 PM" src="https://github.com/ashminarai/Reatime-chatapplication/assets/85731866/2b6cdf78-a0c1-4aa6-8ba1-0933c0d8cb46">
+**#Joined the chat**
+
+<img width="1420" alt="Screen Shot 2023-07-01 at 7 25 34 PM" src="https://github.com/ashminarai/Reatime-chatapplication/assets/85731866/99d43ad6-139a-468d-b79c-ed593963774f">
+
+**#Left the chat**
+
+<img width="1440" alt="Screen Shot 2023-07-01 at 3 08 02 PM" src="https://github.com/ashminarai/Reatime-chatapplication/assets/85731866/a023a9b5-9b06-479e-9d29-be7277076fac">
+
 
 **8. Following that, you'll be able to engage in a conversation. Additionally, you'll receive a messenger sound when you get a notification about receiving a message from someone :)**
+
+<img width="1429" alt="Screen Shot 2023-07-01 at 7 29 48 PM" src="https://github.com/ashminarai/Reatime-chatapplication/assets/85731866/b2feb73f-6c40-4f23-8f9c-dad8d2ac4795">
+
+
 
