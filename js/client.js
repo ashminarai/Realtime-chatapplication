@@ -1,13 +1,13 @@
 const socket = io('http://localhost:8000');
 
 const form = document.getElementById('send-container');
-const messageInput = document.getElementById('messageInp');
-const messageContainer = document.querySelector(".container");
+const messageInput = document.getElementById('messageInp')
+const messageContainer = document.querySelector(".container")
 var audio = new Audio('sound.mp4');
 
 
 
-const appendMessage = (message, position) => {
+const append = (message, position) => {
   const messageElement = document.createElement('div');
   messageElement.innerText = message;
   messageElement.classList.add('message', position);
@@ -20,7 +20,7 @@ const appendMessage = (message, position) => {
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   const message = messageInput.value;
-  appendMessage(`You: ${message}`, 'right');
+  append(`You: ${message}`, 'right');
   socket.emit('send', message);
   messageInput.value = '';
 });

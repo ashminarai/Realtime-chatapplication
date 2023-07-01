@@ -38,6 +38,8 @@ body {
 }
 #send-container {
   text-align: center;
+  display:block;
+  margin:auto;
 }
 #messageInp {
   width: 59%;
