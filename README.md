@@ -1,11 +1,11 @@
 # Reatime-chatapplication
 
-**Requirement**
+**1. Requirement**
 
 - NodeJS
 - SocketIo
 
-**Folder style**
+**2. Folder style**
 
 project_folder
   - index.html
