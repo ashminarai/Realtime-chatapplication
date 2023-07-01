@@ -2,6 +2,11 @@
 const express = require('express');
 const cors = require('cors');
 const app = express();
+const http = require('http');
+const socketIO = require('socket.io');
+
+const server = http.createServer(app);
+
 
 // Allow all origins for simplicity. In production, set this to your frontend domain.
 app.use(cors());
@@ -12,6 +17,10 @@ const port = 3000;
 app.listen(port, () => {
   console.log(`Server is running`);
 });
+
+
+
+
 
 // this is a node server which will handle socket io connections
 
@@ -46,4 +55,5 @@ io.on('connection', socket=>{
     });
 
     // socket.on
+    
 })
